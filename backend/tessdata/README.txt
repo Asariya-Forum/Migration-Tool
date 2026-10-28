@@ -1,0 +1,1 @@
+Place the official Tesseract Urdu trained data file here as urd.traineddata. Do not commit or include a large trained-data binary unless you have confirmed its licence/source. For your current machine, copy your existing file into this folder.
