@@ -4,7 +4,7 @@ from pathlib import Path
 class Settings(BaseSettings):
     database_url: str = "sqlite:///./asariya_local.db"
     storage_root: str = "../storage"
-    watermark_timeout_seconds: int = 20
+    watermark_timeout_seconds: int = 180
     watermark_text: str = "AsariyaForum.com"
     tesseract_exe: str = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
     tessdata_dir: str = "./tessdata"
